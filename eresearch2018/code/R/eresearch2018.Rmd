@@ -118,7 +118,7 @@ if (fixed) {
 # Introduction
 An analysis of tweets from the `r conf_name` conference. A total of
 `r nrow(tweets)` tweets from `r length(unique(tweets$screen_name))` users were 
-collected using the `rtweet` R package.
+collected using the `rtweet` R package. Code comes from [Luke Zappia](https://github.com/lazappi/twitter-stats)
 
 # Timeline
 
