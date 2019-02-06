@@ -556,8 +556,11 @@ tweets_media %>%
 ![](`r tweets_media[1, "media_url"]`)
 `r tweets_media[2, "screen_name"]`
 ![](`r tweets_media[2, "media_url"]`)
+`r tweets_media[3, "screen_name"]`
 ![](`r tweets_media[3, "media_url"]`)
+`r tweets_media[4, "screen_name"]`
 ![](`r tweets_media[4, "media_url"]`)
+`r tweets_media[5, "screen_name"]`
 ![](`r tweets_media[5, "media_url"]`)
 
 # Tweet text
