@@ -66,7 +66,7 @@ days <- c("2018-10-15", "2018-10-16", "2018-10-17", "2018-10-18", "2018-10-19")
 accent <- "skyblue3"
 pal <- "Set1"
 topics_k <- 6
-fixed <- FALSE # Set to TRUE to stop adding new tweets
+fixed <- TRUE # Set to TRUE to stop adding new tweets
 
 params <- data.frame(Parameter = c("Hashtag", "Conference", "Time Zone", "Days",
                                    "Accent colour", "Pallete", "Topics k",
