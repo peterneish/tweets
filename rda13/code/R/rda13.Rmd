@@ -61,12 +61,12 @@ set.seed(1)
 
 hashtag <- c("#rdaplenary", "#rdaplenary13")
 conf_name <- "RDA 13 Plenary"
-timezone <- "EST5EDT"
+timezone <- "America/New_York"
 days <- c("2019-04-01", "2019-04-02", "2019-04-03", "2019-04-04")
 accent <- "skyblue3"
 pal <- "Set1"
 topics_k <- 6
-fixed <- FALSE # Set to TRUE to stop adding new tweets
+fixed <- TRUE # Set to TRUE to stop adding new tweets
 
 params <- data.frame(Parameter = c("Hashtag", "Conference", "Time Zone", "Days",
                                    "Accent colour", "Pallete", "Topics k",
